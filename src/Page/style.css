@@ -1,0 +1,227 @@
+/*----------------MAIN------------------*/
+
+body {
+    /* margin: 0; */
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/*----------------INTRO------------------*/
+
+.header {
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+}
+
+
+.header__logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(87, 62, 113);
+} 
+
+/*-----------INTRO BODY-------------*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 99vh;
+
+    background: rgb(222, 197, 222);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__suptitle {
+    margin-bottom: 50px;
+    font-size: 70px;
+    color: #333;
+    font-family: 'Kaushan Script', cursive;
+    animation: colorchange 5s infinite alternate;
+}
+
+.intro__title {
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(172, 69, 69);
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+}
+
+@keyframes colorchange {
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: blue
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+}
+
+/*---------------------ABOUT PART----------------------------*/
+
+.section_about {
+    width: 100%;
+    height: 99vh;
+    padding: 30px 0;
+    background-color:rgb(208, 223, 223);
+}
+
+.section__title {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
+}
+
+.section__text p {
+    font-size: 1.5rem;
+}
+
+/*---------------------WORK PART(1)----------------------------*/
+
+.work_first_base {
+    text-align: center;
+    width: 100%;
+    height: 160vh;
+    padding: 30px 0;
+    background-color:rgb(228, 183, 184);
+}
+
+.image-container.expression {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/expression.jpg");
+    width: 600px;
+    height: 400px;
+}
+
+.image-container.calculated {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/calculated.jpg");
+    width: 600px;
+    height: 400px;
+}
+
+/*-----------------WORK GRAPH----------------------------------*/
+
+.work_first {
+    text-align: center;
+    width: 100%;
+    height: 160vh;
+    padding: 30px 0;
+    background-color:rgb(181, 173, 146);
+}
+
+.image-container.classic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/classic_work.jpg");
+    width: 600px;
+    height: 400px;
+}
+
+
+.image-container.graph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/classic_work_graph.jpg");
+    width: 600px;
+    height: 247px;
+}
+
+.image-container.graph_x {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/classic_work_graph_x.jpg");
+    width: 600px;
+    height: 247px;
+}
+
+.image-container.graph_done {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/classic_work_graph_done.jpg");
+    width: 600px;
+    height: 248px;
+}
+
+.image-container.graphic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/classic_work_graphic.jpg");
+    width: 600px;
+    height: 247px;
+}
+
+.image-container.graphic_2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/classic_work_graphic_2.jpg");
+    width: 600px;
+    height: 247px;
+}
+
+/*---------------------WORK PART(2)----------------------------*/
+
+.work_second {
+    text-align: center;
+    width: 100%;
+    height: 160vh;
+    padding: 30px 0;
+    background-color:rgb(171, 209, 197);
+}
+
+.image-container.credit_menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/credit_menu1.jpg");
+    width: 700px;
+    height: 469px;
+}
+
+.image-container.credit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("image/work/credit.jpg");
+    width: 700px;
+    height: 469px;
+    margin-bottom: 10%;
+}
