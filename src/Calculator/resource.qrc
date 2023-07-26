@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/new/prefix1"/>
-    <qresource prefix="/rec">
-    </qresource>
-</RCC>
